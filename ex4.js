@@ -12,9 +12,11 @@
 
  /**
   * Fíjate sin embargo qué valor arroja aplicar indexOf cuando buscamos a "estrella". CONTESTA: ¿Por qué crees que sucede esto?
+  * Porque JavaScript es un idioma de programación Case Sensitive (distingue entre mayúsculas y minúscula)
   */
 
   let pezPosicion2 = muchos_peces.indexOf("estrella")
   console.log("Estrella está en la posición: " + pezPosicion2)
-
-  
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+  let pezPosicion3 = muchos_peces.indexOf("Estrella")
+  console.log("Estrella está en la posición: " + pezPosicion3)

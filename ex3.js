@@ -15,7 +15,8 @@
  */
 
  /**
-  * Ejecuta el siguiente código e intenta averiguar que está sucediendo. CONTESTA A LA PREGUNTA: ¿Porque el úñtimo mensaje dice "Pez siguiente: undefined?"
+  * Ejecuta el siguiente código e intenta averiguar que está sucediendo. CONTESTA A LA PREGUNTA: ¿Porque el último mensaje dice "Pez siguiente: undefined?"
+  * Porque esta intentando acceder a un indice que no existe.
   */
 
 let muchos_peces = ["Dory", "Nemo", "Shipho", "Estrella"]
